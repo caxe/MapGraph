@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace MapGraph
 {
-	public partial class Form1 : Form
+	public partial class NewNode : Form
 	{
-		public Form1()
+		public NewNode()
 		{
 			InitializeComponent();
+		}
+
+		private void OkButton_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void CancelButton_Click(object sender, EventArgs e)
+		{
+			Close();
 		}
 	}
 }
